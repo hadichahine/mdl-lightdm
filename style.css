@@ -28,8 +28,8 @@ body:before {
     border-radius: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-    -webkit-animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
-    animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
+    -webkit-animation: puff 250ms 0.9s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.1s 1.15s linear forwards;
+    animation: puff 250ms 0.9s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.1s 1.15s linear forwards;
 }
 h1, h2 {
     font-weight: 500;
@@ -62,7 +62,7 @@ p {
 	-webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
 	box-shadow: 0px 3px 6px rgba(0 ,0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
     -webkit-animation: init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards;
-    animation: init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+    animation: init 0.25s 0.1s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, materia 250ms 1.45s cubic-bezier(0.86, 0, 0.07, 1) forwards;
 }
 .profile-card header {
     width: 179px;
@@ -76,8 +76,8 @@ p {
     margin-top: 50px;
     opacity: 0;
     text-align: center;
-    -webkit-animation: moveIn 1s 3.1s ease forwards;
-    animation: moveIn 1s 3.1s ease forwards;
+    -webkit-animation: moveIn 0.5s 1.5s ease forwards;
+    animation: moveIn 0.5s 1.5s ease forwards;
 }
 .profile-card header h1 {
     color: #FF5722;
@@ -114,7 +114,7 @@ p {
     text-align: center;
     opacity: 0;
     -webkit-animation: moveIn 1s 3.1s ease forwards;
-    animation: moveIn 1s 3.1s ease forwards;
+    animation: moveIn 0.5s 1.5s ease forwards;
 }
 .profile-social-links {
     width: 218px;
@@ -129,7 +129,7 @@ p {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-animation: moveIn 1s 3.1s ease forwards;
-    animation: moveIn 1s 3.1s ease forwards;
+    animation: moveIn 0.5s 1.5s ease forwards;
 }
 .profile-social-links li {
     list-style: none;
@@ -172,7 +172,7 @@ p {
 }
 .profile-social-links li a:hover:before {
     -webkit-animation: ripple 1s ease forwards;
-    animation: ripple 1s ease forwards;
+    animation: ripple 0.5s ease forwards;
 }
 .profile-social-links li a img,
 .profile-social-links li a svg {
