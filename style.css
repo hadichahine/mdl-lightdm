@@ -4,7 +4,7 @@ html {
     height: 100%;
 }
 body {
-	background: #bcdee7 url("./profile/profile_bg.jpg") no-repeat center center fixed;
+	background: #000000 url("./profile/profile_bg.jpg") no-repeat center center fixed;
     background-size: 120% auto;
     position: fixed;
 	padding: 0px;
@@ -18,7 +18,7 @@ body:before {
     content: "";
     height: 0px;
     padding: 0px;
-    border: 110em solid #607D8B;
+    border: 110em solid #000000;
 	position: absolute;
 	left: 50%;
 	top: 100%;

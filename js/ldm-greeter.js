@@ -81,7 +81,7 @@ $(document).ready(function () {
 	$(window).load(function() {
 
 		/**
-		* Loading UI informations
+		* Loading UI information
 		*/
 
 		get_hostname();
