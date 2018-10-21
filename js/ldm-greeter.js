@@ -214,6 +214,7 @@ $(document).ready(function () {
 		log("provide_secret -> called! value: " + $('#pass').val());
 		if(USE_DEFAULTS) log("-> called for default authentication!");
 		lightdm.provide_secret($('#pass').val());
+		authentication_complete();
 		//todo: maybe hide password field and show progress circle
 		log("provide_secret -> done!");
 	};
